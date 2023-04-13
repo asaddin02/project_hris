@@ -38,7 +38,6 @@ class LoginPageState extends State<LoginPage> {
 
   @override
   void dispose() {
-    // Clean up the controller when the widget is disposed.
     nikController.dispose();
     passwordController.dispose();
     super.dispose();
